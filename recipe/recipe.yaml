@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dbetto
-  version: "1.4.0"
+  version: "1.4.1"
   python_min: "3.9"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dbetto-${{ version }}.tar.gz
-  sha256: 58dd80d02d97d233cc2bf6f78fdba7ae85a6a4f9190496730e659eb9d0ab6339
+  sha256: be4266c3b240f3871451e75c7220f15e90f626acf77f8d4555f39f614ee83f83
 
 build:
   number: 0
